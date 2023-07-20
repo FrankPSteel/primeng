@@ -1125,6 +1125,7 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
     }
 
     ngOnInit() {
+        console.log('init table');
         if (this.lazy && this.lazyLoadOnInit) {
             if (!this.virtualScroll) {
                 this.onLazyLoad.emit(this.createLazyLoadMetadata());
