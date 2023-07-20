@@ -2304,8 +2304,8 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
      * @group Method
      */
     public resetScrollTop() {
-        if (this.virtualScroll) this.scrollToVirtualIndex(0);
-        else this.scrollTo({ top: 0 });
+        //if (this.virtualScroll) this.scrollToVirtualIndex(0);
+        //else this.scrollTo({ top: 0 });
     }
     /**
      * Scrolls to given index when using virtual scroll.
